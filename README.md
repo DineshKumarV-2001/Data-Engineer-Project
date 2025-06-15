@@ -4,14 +4,14 @@
 ## Project Overview
 - Analyzed Olist's Brazilian e-commerce dataset using PySpark on Google Cloud Dataproc
 - Processed 9 datasets with ~100K-1M records each
-- Implemented data cleaning, transformation, and advanced analytics
+- Implemented data cleaning, transformation, Imputation and advanced analytics
 
 ## Key Features
 - Data extraction from Kaggle to HDFS
 - Comprehensive data validation and cleaning
 - Customer segmentation and seller performance analysis
 - Optimized Spark joins and performance tuning
-- Time-based and geographic analysis
+- Used Cache for Iterative Datasets
 
 ## Technologies Used
 - PySpark
@@ -27,5 +27,12 @@
 
 ## Key Insights
 - Identified top-selling products and high-value customers
-- Analyzed delivery time patterns
+- Analyzed Top Sellers and Total Revenue Generated
+- Calculated Total Revenue and Average Order Value (AOV) per Customers
 - Discovered payment method preferences
+
+## Downstreamed for Visualization & Further Analytics
+-- Merged All the Table's & Computed Columns to a Single Table
+-- Removed Unwanted Columns 
+-- Fill Null Values Based on Column Criteria (eg:- mean for Payment , esitmated_delivery_date for missed delivery_date)
+-- writen the Data to Google Bucket as in Parquet( best for Compression ) & Downloaded Directly from Google Bucket
