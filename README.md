@@ -32,7 +32,7 @@
 - Discovered payment method preferences
 
 ## Downstreamed for Visualization & Further Analytics
--- Merged All the Table's & Computed Columns to a Single Table
--- Removed Unwanted Columns 
--- Fill Null Values Based on Column Criteria (eg:- mean for Payment , esitmated_delivery_date for missed delivery_date)
--- writen the Data to Google Bucket as in Parquet( best for Compression ) & Downloaded Directly from Google Bucket
+- Merged All the Table's & Computed Columns to a Single Table
+- Removed Unwanted Columns 
+- Fill Null Values Based on Column Criteria (eg:- mean for Payment , esitmated_delivery_date for missed delivery_date)
+- writen the Data to Google Bucket as in Parquet( best for Compression ) & Downloaded Directly from Google Bucket
