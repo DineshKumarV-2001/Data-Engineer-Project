@@ -1,4 +1,3 @@
-# Brazilian E-Commerce Data Analysis with PySpark
 # End-to-End Big Data Pipeline on GCP with PySpark & Dataproc
 
 ## Project Overview
