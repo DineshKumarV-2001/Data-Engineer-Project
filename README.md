@@ -7,18 +7,18 @@
 - Implemented data cleaning, transformation, Imputation and advanced analytics
 
 ## Key Features
-- Data extraction from Kaggle to HDFS
+- Data extraction from Kaggle to HDFS 
 - Comprehensive data validation and cleaning
 - Customer segmentation and seller performance analysis
 - Optimized Spark joins and performance tuning
 - Used Cache for Iterative Datasets
 
 ## Technologies Used
+- Google Cloud Dataproc ( Spark , HDFS )
 - PySpark
-- Google Cloud Dataproc
-- HDFS
 - Spark SQL
 - Spark ML (for imputation)
+- Google Cloud Bucket
 
 ## How to Run
 1. Set up Dataproc cluster with provided configuration
@@ -33,6 +33,6 @@
 
 ## Downstreamed for Visualization & Further Analytics
 - Merged All the Table's & Computed Columns to a Single Table
-- Removed Unwanted Columns 
+- Removed Unwanted/Invalid Columns 
 - Fill Null Values Based on Column Criteria (eg:- mean for Payment , esitmated_delivery_date for missed delivery_date)
-- writen the Data to Google Bucket as in Parquet( best for Compression ) & Downloaded Directly from Google Bucket
+- Copied the Data to Google Bucket as in Parquet( best for Compression ) & can be Downloaded Directly from Google Bucket.
