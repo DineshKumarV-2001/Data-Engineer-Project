@@ -12,6 +12,9 @@
 - Customer segmentation and seller performance analysis
 - Optimized Spark joins and performance tuning
 - Used Cache for Iterative Datasets
+- Used SparkML Feature : Imputer - to fill missing (null/NaN) values in numeric columns with a statistical strategy(Mean, Median, Mode).
+- ![Screenshot 2025-06-21 202353](https://github.com/user-attachments/assets/a5f6d86e-32d8-46aa-86e9-19c2eafc082c)
+ 
 
 ## Technologies Used
 - Google Cloud Dataproc ( Spark , HDFS )
@@ -19,11 +22,6 @@
 - Spark SQL
 - Spark ML (for imputation)
 - Google Cloud Bucket
-
-## How to Run
-1. Set up Dataproc cluster with provided configuration
-2. Download dataset using the curl command
-3. Run the notebook cells sequentially
 
 ## Key Insights
 - Identified top-selling products and high-value customers
