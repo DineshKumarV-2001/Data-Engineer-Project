@@ -5,6 +5,7 @@
 - Analyzed Olist's Brazilian e-commerce dataset using PySpark on Google Cloud Dataproc
 - Processed 9 datasets with ~100K-1M records each
 - Implemented data cleaning, transformation, Imputation and advanced analytics
+- ETL - Extracted from Kaggle, Tranformed using Spark, Loaded it to Google Bucket (Cloud Storage).
 
 ## Key Features
 - Data extraction from Kaggle to HDFS 
