@@ -13,7 +13,8 @@
 - Optimized Spark joins and performance tuning
 - Used Cache for Iterative Datasets
 - Used SparkML Feature : Imputer - to fill missing (null/NaN) values in numeric columns with a statistical strategy(Mean, Median, Mode).
-- ![Screenshot 2025-06-21 202353](https://github.com/user-attachments/assets/a5f6d86e-32d8-46aa-86e9-19c2eafc082c)
+![Screenshot 2025-06-21 204136](https://github.com/user-attachments/assets/488cb756-5089-4c44-8afc-919104bb296d)
+
  
 
 ## Technologies Used
@@ -24,10 +25,18 @@
 - Google Cloud Bucket
 
 ## Key Insights
-- Identified top-selling products and high-value customers
-- Analyzed Top Sellers and Total Revenue Generated
+- Identified top-customers by spending.
+- ![Screenshot 2025-06-21 203008](https://github.com/user-attachments/assets/64bd4556-7be3-444c-96c5-a33182f813ce)
+
+- Analyzed Sellers Performance Metrics
+- ![image](https://github.com/user-attachments/assets/328bf3ef-d748-4fff-b2e5-0939beb923ff)
+
 - Calculated Total Revenue and Average Order Value (AOV) per Customers
-- Discovered payment method preferences
+- ![Screenshot 2025-06-21 202844](https://github.com/user-attachments/assets/b8a4e5c0-439d-4936-969f-a6a6cab3aa61)
+
+- Customer Segmentation by Total Spending
+- ![image](https://github.com/user-attachments/assets/d67e3547-633f-4fd3-b39a-61ceb9fa59bf)
+
 
 ## Downstreamed for Visualization & Further Analytics
 - Merged All the Table's & Computed Columns to a Single Table
