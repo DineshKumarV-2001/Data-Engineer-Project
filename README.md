@@ -15,8 +15,6 @@
 - Used SparkML Feature : Imputer - to fill missing (null/NaN) values in numeric columns with a statistical strategy(Mean, Median, Mode).
 ![Screenshot 2025-06-21 204136](https://github.com/user-attachments/assets/488cb756-5089-4c44-8afc-919104bb296d)
 
- 
-
 ## Technologies Used
 - Google Cloud Dataproc ( Spark , HDFS )
 - PySpark
@@ -40,6 +38,8 @@
 - Created TempTable and Utlized SparkSQL for Analysis
 - ![image](https://github.com/user-attachments/assets/adef3644-b99b-4402-b605-2b0040bfdaab)
 
+- Weekdays & Weekend Sales Analysis
+-![image](https://github.com/user-attachments/assets/e82cda61-9526-4886-86d6-d9d3b3eb4351)
 
 ## Downstreamed for Visualization & Further Analytics
 - Merged All the Table's & Computed Columns to a Single Table
