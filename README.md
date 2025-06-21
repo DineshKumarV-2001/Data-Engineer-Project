@@ -37,6 +37,10 @@
 - Customer Segmentation by AOV (Average Order Value) : (Total Revenue / Total Orders)
 - ![image](https://github.com/user-attachments/assets/68262507-9b8d-445b-bbe2-e7dfe0e94fa0)
 
+- Created TempTable and Utlized SparkSQL for Analysis
+- ![image](https://github.com/user-attachments/assets/adef3644-b99b-4402-b605-2b0040bfdaab)
+
+
 ## Downstreamed for Visualization & Further Analytics
 - Merged All the Table's & Computed Columns to a Single Table
 - Removed Unwanted/Invalid Columns 
