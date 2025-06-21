@@ -1,19 +1,19 @@
-# Olist-Data-Engineer-Project
 # Brazilian E-Commerce Data Analysis with PySpark
+# End-to-End Big Data Pipeline on GCP with PySpark & Dataproc
 
 ## Project Overview
 - Analyzed Olist's Brazilian e-commerce dataset using PySpark on Google Cloud Dataproc
 - Processed 9 datasets with ~100K-1M records each
-- Implemented data cleaning, transformation, Imputation and advanced analytics
-- ETL - Extracted from Kaggle, Tranformed using Spark, Loaded it to Google Bucket (Cloud Storage).
+- Implemented data cleaning, transformation, Feature Engineering (SparkML Imputer) and advanced analytics
+- ETL Workflow (Kaggle → HDFS → Dataproc → Google Cloud Bucket).
+- Data serving with Parquet for further analytics
 
 ## Key Features
-- Data extraction from Kaggle to HDFS 
 - Comprehensive data validation and cleaning
 - Customer segmentation and seller performance analysis
 - Optimized Spark joins and performance tuning
 - Used Cache for Iterative Datasets
-- Used SparkML Feature : Imputer - to fill missing (null/NaN) values in numeric columns with a statistical strategy(Mean, Median, Mode).
+- Feature Engineering (SparkML Imputer) : to fill missing (null/NaN) values in numeric columns with a statistical strategy(Mean, Median, Mode).
 ![Screenshot 2025-06-21 204136](https://github.com/user-attachments/assets/488cb756-5089-4c44-8afc-919104bb296d)
 
 ## Technologies Used
