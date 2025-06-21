@@ -34,12 +34,15 @@
 - Calculated Total Revenue and Average Order Value (AOV) per Customers
 - ![Screenshot 2025-06-21 202844](https://github.com/user-attachments/assets/b8a4e5c0-439d-4936-969f-a6a6cab3aa61)
 
-- Customer Segmentation by Total Spending
-- ![image](https://github.com/user-attachments/assets/d67e3547-633f-4fd3-b39a-61ceb9fa59bf)
-
+- Customer Segmentation by AOV (Average Order Value) : (Total Revenue / Total Orders)
+- ![image](https://github.com/user-attachments/assets/68262507-9b8d-445b-bbe2-e7dfe0e94fa0)
 
 ## Downstreamed for Visualization & Further Analytics
 - Merged All the Table's & Computed Columns to a Single Table
 - Removed Unwanted/Invalid Columns 
 - Fill Null Values Based on Column Criteria (eg:- mean for Payment , esitmated_delivery_date for missed delivery_date)
 - Copied the Data to Google Bucket as in Parquet( best for Compression ) & can be Downloaded Directly from Google Bucket.
+
+## Data Serving
+- ![image](https://github.com/user-attachments/assets/2005f350-be3a-4f24-a3a0-b4c0d1c65dc2)
+
